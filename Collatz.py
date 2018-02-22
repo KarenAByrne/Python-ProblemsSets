@@ -10,11 +10,5 @@ while (i > 1):        #loop down to 1
         i = i / 2
     else:       #number is odd
         i = 3 * i + 1
-    print(i)
-    
-
- 
-
-    
-
- 
+    print(int(i)) # return an integer for i
+   
