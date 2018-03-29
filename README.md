@@ -1,4 +1,7 @@
 # Python-ProblemsSets
 Exercises for Programming and Scripting Module
 
-fib.py contains exercises for Week 1 and Week 2 
+Problem 1 & 2 fib.py 
+Problem 3 in ollatz.py
+
+
