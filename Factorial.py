@@ -7,7 +7,7 @@ def factorial(input):
     while input>0:
         tempfactx = tempfactx * (input)
         input=input-1
-        print(factx)
+    return tempfactx
     
 
 print("The factorial of 5 is",factorial(5))
