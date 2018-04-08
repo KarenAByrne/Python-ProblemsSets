@@ -1,11 +1,12 @@
 #Karen Byrne 8th April 2018
 #Euler 5)
-Num = 2520
-SPI = True
+Smallestpositiveinteger = 2520
+#Start at the number provided in the question as it cannot be smaller than this
+isdivisible  = True
 # Define Smallest positive integer
-for i in range(11,20):
-        if Num % i == 0:
-            SPI = True
+for i in range(20):
+        if Smallestpositiveinteger % (i+1) != 0:
+            isdivisible = False
         else:
-            Num = Num + 2
-print(Num)
+            Smallestpositiveinteger = Smallestpositiveinteger + 2
+print(Smallestpositiveinteger)
